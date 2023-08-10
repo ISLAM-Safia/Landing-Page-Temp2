@@ -39,7 +39,9 @@ section {
     align-items: center;
     z-index: 100;
 }
-
+.header.sticky {
+    border-bottom: .1rem solid rgba( 0 , 0 , 0 , 0.2);
+}
 .logo {
     font-size: 2.5rem;
     color: var(--text-color);
@@ -463,7 +465,7 @@ section {
    
 }
 .team-box {
-    background-color:   #1E2A38;
+    background-color:   #ccc;
     border-radius: 2rem;
     padding: 3rem 2rem 4rem ;
     transition: .5s ease;
@@ -492,10 +494,12 @@ section {
     margin-top: 1rem;
     font-size: 2.6rem;
     font-weight: 500;
+    color: var(--bg-color);
 }
 .team-box p {
     text-align: center;
     color:#cad1d7;
+    color: var(--bg-color);
 }
 /* pricing table style */
 
@@ -608,3 +612,5 @@ transition: .5s ease;
     font-size: 4rem;
     color: var(--text-color);
 }
+
+/* Responsive */
