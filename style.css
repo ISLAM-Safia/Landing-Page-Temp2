@@ -465,7 +465,7 @@ section {
    
 }
 .team-box {
-    background-color:   #ccc;
+    background-color:   #1E2A38;
     border-radius: 2rem;
     padding: 3rem 2rem 4rem ;
     transition: .5s ease;
@@ -494,12 +494,12 @@ section {
     margin-top: 1rem;
     font-size: 2.6rem;
     font-weight: 500;
-    color: var(--bg-color);
+    color: var(--text-color);
 }
 .team-box p {
     text-align: center;
     color:#cad1d7;
-    color: var(--bg-color);
+    color: var(--text-color);
 }
 /* pricing table style */
 
